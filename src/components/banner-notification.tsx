@@ -4,7 +4,7 @@ interface Props {
 
 import { Link } from "react-router-dom";
 import CloseSvg from "../assets/icons/close.svg";
-import { useRef, useState } from "react";
+import { useState } from "react";
 
 const BannerNotification = ({ discount }: Props) => {
   const [close, setClose] = useState<boolean>(false);
@@ -14,7 +14,7 @@ const BannerNotification = ({ discount }: Props) => {
   return (
     <>
       {!close && (
-        <div className={`bg-black text-white text-sm py-2.5`}>
+        <section className={`bg-black text-white text-sm py-2.5 sticky top-0 left-0 z-50`}>
           <div className="my-container">
             <div className="flex justify-between">
               <h1 className="mx-auto">
@@ -28,7 +28,7 @@ const BannerNotification = ({ discount }: Props) => {
               </button>
             </div>
           </div>
-        </div>
+        </section>
       )}
     </>
   );

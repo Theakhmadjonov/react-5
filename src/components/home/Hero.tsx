@@ -1,5 +1,5 @@
 import "../../assets/styles/hero.css";
-import Button from "../ui/button";
+import Button from "../ui/Button";
 const Hero = () => {
   return (
     <section className="hero">
@@ -41,5 +41,5 @@ const Hero = () => {
     </section>
   );
 };
-
+  
 export default Hero;
