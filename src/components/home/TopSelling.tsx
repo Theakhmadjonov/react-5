@@ -7,7 +7,7 @@ const TopSelling = () => {
       <div className="my-container text-center">
         <h1 className="title">TOP SELLING</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-[55px] gap-y-5 justify-between">
-          <Card imageUrl={tshirt2} price={20} rating={1.5} title="T-Shirt" />
+          <Card imageUrl={tshirt2} price={20} rating={1.5} title="T-Shirt" discount={10}/>
           <Card imageUrl={tshirt2} price={20} rating={4} title="T-Shirt" />
           <Card imageUrl={tshirt2} price={20} rating={3} title="T-Shirt" />
           <Card imageUrl={tshirt2} price={20} rating={5} title="T-Shirt" />
