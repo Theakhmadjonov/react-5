@@ -8,10 +8,10 @@ const Arrivals = () => {
       <div className="my-container text-center">
         <h1 className="title">NEW ARRIVALS</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-[55px] gap-y-5 justify-between">
-          <Card imageUrl={tShirt} price={20} rating={1.5} title="T-Shirt" />
+          <Card imageUrl={tShirt} price={120} rating={1.5} title="T-Shirt" discount={50}/>
           <Card imageUrl={tShirt} price={20} rating={4} title="T-Shirt" />
           <Card imageUrl={tShirt} price={20} rating={3} title="T-Shirt" />
-          <Card imageUrl={tShirt} price={20} rating={5} title="T-Shirt" />
+          <Card imageUrl={tShirt} price={50} rating={5} title="T-Shirt" discount={10}/>
           <Card imageUrl={tShirt} price={20} rating={3.5} title="T-Shirt" />
           <Card imageUrl={tShirt} price={20} rating={2.5} title="T-Shirt" />
           <Card imageUrl={tShirt} price={20} rating={2} title="T-Shirt" />

@@ -41,13 +41,13 @@ const Card = ({ title, price, rating, imageUrl, discount }: Props) => {
       <div className="flex gap-[10px] items-center mt-[8px]">
         {discount ? (
           <>
-            <h1 className="original-price text-[20px] text-gray-400 line-through">
-              ${price.toFixed(2)}
-            </h1>
-            <h2 className="discountPrice text-[24px] font-bold text-red-600">
+            <h2 className="discountPrice text-[24px] font-bold">
               ${discountedPrice}
             </h2>
-            <button className="text-[14px] bg-red-100 text-red-600 px-2 py-1 rounded">
+            <h1 className="original-price text-[24px] text-[rgba(0,_0,_0,_0.4)] line-through">
+              ${price.toFixed(2)}
+            </h1>
+            <button className="text-[12px] font-medium rounded-[62px] py-[6px] px-[14px] bg-[rgba(255,_51,_51,_0.1)] text-[rgba(255,_51,_51,_1)]">
               -{discount}%
             </button>
           </>
