@@ -1,0 +1,36 @@
+.casual {
+  background-image: url(../icons/image11.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  font-family: "INTEGRAL CF";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #000000;
+}
+
+.formal {
+  background-image: url(../icons/image13.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.party {
+  background-image: url(../icons/image12.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.gym {
+  background-image: url(../icons/image14.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
